@@ -16,10 +16,11 @@
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/templatemo-style.css">
-    <script src="https://kit.fontawesome.com/7d3ede7693.js" crossorigin="anonymous"></script>
+    <!--    <script src="https://kit.fontawesome.com/7d3ede7693.js" crossorigin="anonymous"></script>-->
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/lab2.css">
 
 
 </head>
@@ -51,7 +52,7 @@
             <ul class="navigation">
                 <li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
                 <li><a href="#about"><i class="fa fa-user"></i>About Me</a></li>
-                <li><a href="lab.html"><i class="fa fa-book"></i>Lab</a></li>
+                <li><a href="lab.html"><i class="fa fa-book"></i>Labs</a></li>
                 <li><a href="#contact"><i class="fa fa-envelope"></i>Contact Me</a></li>
             </ul>
         </div>
@@ -71,7 +72,7 @@
         <ul class="">
             <li><a href="index.html"><i class="fa fa-home"></i></i>Home</a></li>
             <li><a href="#about"><i class="fa fa-pencil"></i>About Me</a></li>
-            <li><a href="lab.html""><i class=" fa fa-book"></i></i>Lab</a>
+            <li><a href="lab.html""><i class=" fa fa-book"></i></i>Labs</a>
             </li>
             <li><a href="#contact"><i class="fa fa-link"></i>Contact Me</a></li>
         </ul>
@@ -105,6 +106,9 @@
             <li class="nav-item">
                 <a class="nav-link" data-toggle="tab" href="#menu2">Lab2</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#menu3">Lab3</a>
+            </li>
         </ul>
 
         <!-- Tab panes -->
@@ -131,11 +135,12 @@
                     <div class="tab-content">
                         <div id="requirementlab1" class="p-3 container tab-pane fade active show">
                             <div class="bound">
-                                <h3>1. Yêu cầu</h3>
+                                <h1 class="text-center text-primary">Requirement</h1>
+                                <h6>1. Yêu cầu</h6>
                                 <p class="contents px-4">Chọn 1 đối tượng bất kỳ trong thế giới thực, vídụ như sinh
                                     viên, môn học, giảng viên,… đểt hiết kế trên phần mềm một chức năng trên web đểt
                                     hêm, sửa, xóa,tìm kiếm cho đối tượng đó</p>
-                                <h3>2. Upload tất cả lên Azure/github trong menu Lab1 theo thứ tự: </h3>
+                                <h6>2. Upload tất cả lên Azure/github trong menu Lab1 theo thứ tự: </h6>
                                 <div class="px-5 rqcontainer">
                                     <ul class="rqul">
                                         <li class="rqli">
@@ -150,16 +155,16 @@
                                             </ul>
                                         </li>
                                         <li class="rqli">
-                                            <p><strong>Tab Hiện thực:</strong>Chuyển tất cả thiết kế ở trên ở trên sang
+                                            <p><strong>Tab Hiện thực: </strong>Chuyển tất cả thiết kế ở trên ở trên sang
                                                 html.</p>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-
                         <div id="designlab1" class="p-3 container tab-pane fade">
                             <div class="bound">
+                                <h1 class="text-center text-primary">Design</h1>
                                 <div class="row p-3">
                                     <div class="col">
                                         <h5 class="text-center">1. Desingn on paper</h5>
@@ -193,7 +198,8 @@
 
                                         <button class="btn btn-primary"><a style="color: white"
                                                                            href="17130045_design/17130045_design_lab1.rar"
-                                                                           download="17130045_design_lab1.rar">Download All
+                                                                           download="17130045_design_lab1.rar">Download
+                                            All
                                             Image</i></a>
                                         </button>
                                     </div>
@@ -203,6 +209,7 @@
                         </div>
                         <div id="implementlab1" class="p-3 container tab-pane fade">
                             <div class="bound p-3">
+                                <h1 class="text-center text-primary">Implement</h1>
                                 <h5>Implement design in html: </h5>
                                 <div id="container" style="margin-top: 40px">
                                     <div id="header" class="parent">
@@ -347,27 +354,31 @@
                                 </div>
                                 <div style="margin-left: 92%; margin-top: 20px">
                                     <button class="info btn btn-primary">
-                                        <a style="color: white" href="17130045_design/design-form.zip" download="17130045.zip">Download</i></a>
+                                        <a style="color: white" href="17130045_design/design-form.zip"
+                                           download="17130045.zip">Download</i></a>
                                     </button>
                                 </div>
 
 
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </div>
             <div id="menu2" class="container tab-pane fade">
                 <div class="contan">
                     <ul class=" nav nav-tabs" role="tablist">
-                        <li class="nav-item items">
+                        <li class="nav-item">
                             <a class="nav-link active" data-toggle="tab"
                                href="#requirementlab2">Requirement</a>
                         </li>
 
-                        <li class="nav-item items">
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab"
+                               href="#userscenario2">User Scenario</a>
+                        </li>
+
+                        <li class="nav-item">
                             <a class="nav-link" data-toggle="tab"
                                href="#designlab2">Design</a>
                         </li>
@@ -378,54 +389,320 @@
                         </li>
                     </ul>
                     <div class="tab-content">
-                        <div id="requirementlab2"
-                             class="p-3 container tab-pane fade active show">
+                        <div id="requirementlab2" class="p-3 container tab-pane fade active show">
                             <div class="bound">
-                                <h3>Requirement</h3>
-                                <p>Chọn 1 đối tượng bất kỳ trong thế giới thực, vídụ như sinh
-                                    viên, môn học, giảng viên,… để thiết kế trên phần mềm một
-                                    chức năng trên web đểthêm, sửa, xóa,tìmkiếm cho đối tượng
-                                    đó.</p>
+                                <h1 class="text-center text-primary">Requirement</h1>
+
+                                <div class="px-5 rqcontainer">
+                                    <ul class="rqul">
+                                        <li class="rqli">
+                                            <p><strong>(1) </strong>Tạo ra một user scenario</p>
+                                        </li>
+                                        <li class="rqli">
+                                            <p><strong>(2) </strong>Chọn 1 bước trong user scenario để thiết kế 1 form
+                                                giao diện Web trên công cụ thiết kế đã chọn. Sau đó tạora file html
+                                                tương ứng cho thiết kế này. </p>
+                                        </li>
+                                        <li class="rqli">
+                                            <p>Upload lênAzure / github: trong file html có chèn hình ảnh của user
+                                                scenario ở (1) và đường dẫn của file thiết kế ở (2). </p>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
+                        <div id="userscenario2" class="p-3 container tab-pane fade">
+                            <div class="bound">
+                                <h1 class="text-center text-primary">User Scenario</h1>
+                                <div class="justify-content-center"><img src="17130045_design/lab3_4_userscenario.png" height="490px" width="860px">
+                                </div>
 
+                            </div>
+                        </div>
                         <div id="designlab2" class="p-3 container tab-pane fade">
                             <div class="bound">
-                                <h3>Design</h3>
-                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                    laboris nisi
-                                    ut aliquip ex ea commodo consequat.</p>
+                                <h1 class="text-center text-primary">Design</h1>
+                                <div class="row p-3">
+                                    <div class="col">
+                                        <h5 class="text-center">1. Desingn on paper</h5>
+                                        <div class="hovereffect hover ehover1">
+                                            <img src="17130045_design/lab2_3.jpg" height="500px" width="450px">
+                                            <div class="overlay">
+                                                <button class="info"><a style="color: white"
+                                                                        href="17130045_design/lab2_3.jpg"
+                                                                        download="lab2_3.jpg">Download</i></a>
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col">
+                                        <h5 class="text-center">2. Design on figma</h5>
+                                        <div class="hovereffect hover ehover1">
+                                            <img src="17130045_design/lab2_2.png" height="500px" width="450px">
+                                            <div class="overlay">
+                                                <button class="info"><a style="color: white"
+                                                                        href="17130045_design/lab2_1.fig"
+                                                                        download="lab2_1.fig">Download</i></a>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="row p-5">
+                                    <div class="col-3 mx-auto">
+
+                                        <button class="btn btn-primary"><a style="color: white"
+                                                                           href="17130045_design/17130045_design_lab2.rar"
+                                                                           download="17130045_design_lab2.rar">Download
+                                            All
+                                            Image</i></a>
+                                        </button>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
                         <div id="implementlab2" class="p-3 container tab-pane fade">
+                            <div class="bound p-3">
+                                <h1 class="text-center text-primary">Implement</h1>
+                                <h5>Implement design in html: </h5>
+                                <div id="lab2" class="container" >
+                                    <div class="row">
+                                        <div class="col-md-1"><h4><label>Topics</label></h4></div>
+                                        <div class="col-md-1">
+                                            <button>NEW
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="row image">
+                                        <div class="col-md-4">
+                                            <img src="img/lab2/HTML.png">
+                                            <div class="text">
+                                                <a>HTML</a>
+                                                <p>Add and structure content to your website</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img src="img/lab2/CSS.png">
+                                            <div class="text">
+                                                <a>CSS</a>
+                                                <p>Change the look and feel of your website</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img src="img/lab2/javascript.png">
+                                            <div class="text">
+                                                <a>JavaScript</a>
+                                                <p>Make your website dynamic</p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="row image">
+                                        <div class="col-md-4">
+                                            <img src="img/lab2/simblimetext.png">
+                                            <div class="text">
+                                                <a>Simblime Text</a>
+                                                <p>Code faster with a popular text editor</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img src="img/lab2/web.png">
+                                            <div class="text">
+                                                <a>Web</a>
+                                                <p>Understand how the web works</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img src="img/lab2/jquery.png">
+                                            <div class="text">
+                                                <a>JQuery</a>
+                                                <p>Do more with JavaScript with less code</p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-3"><h4><label>Bento Core</label></h4></div>
+
+                                    </div>
+                                    <div class="row image">
+                                        <div class="col-md-4">
+                                            <img src="img/lab2/webFun.png">
+                                            <div class="text">
+                                                <a>Web Fundamentals</a>
+                                                <p>What everyone should learn about the web</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img src="img/lab2/frontend.png">
+                                            <div class="text">
+                                                <a>Front End</a>
+                                                <p>Build a basic website</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img src="img/lab2/backend.png">
+                                            <div class="text">
+                                                <a>Back End</a>
+                                                <p>Build smart applications</p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div style="margin-left: 92%; margin-top: 20px">
+                                    <button class="info btn btn-primary">
+                                        <a style="color: white" href="17130045_design/17130045_TranThiMyDuyen_lab2_html.rar"
+                                           download="17130045_TranThiMyDuyen_lab2_html.rar">Download</i></a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="menu3" class="container tab-pane fade">
+                <div class="contan">
+                    <ul class=" nav nav-tabs" role="tablist">
+                        <li class="nav-item items">
+                            <a class="nav-link active" data-toggle="tab"
+                               href="#requirementlab3">Requirement</a>
+                        </li>
+                        <li class="nav-item items">
+                            <a class="nav-link" data-toggle="tab"
+                               href="#exercise1">Exercise 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link items" data-toggle="tab"
+                               href="#exercise2">Exercise 2</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="requirementlab3"
+                             class="p-3 container tab-pane fade active show">
                             <div class="bound">
-                                <h3>Implement</h3>
-                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                    laboris nisi
-                                    ut aliquip ex ea commodo consequat.</p>
+                                <h1 class="text-center text-primary">Requirement</h1>
+                                <p class="contents"><span class="font-weight-bold">1. </span>Trong menu Exercises
+                                    (hoặc Labs), tạo 1 menu Lab3 (file lab3.html) sau đó tạo 2 tab Bài 1, Bài 2:</p>
+                                <p class="contents px-4"><span class="font-weight-bold">Ex1: </span>
+                                    Thiết kế một trang web đơn giản sử dụng mẫu F-pattern ==> chuyển sang html
+                                    (ex1.html).
+                                </p>
+                                <p class="contents px-4"><span class="font-weight-bold">Ex2: </span>
+                                    Thiết kế một trang web sử dụng mẫu Z-pattern ==> chuyển sang html (ex2.html).
+                                </p>
+                                <p class="contents"><span class="font-weight-bold">2. </span>Với cả Ex1, Ex2: Tạo 2 tab
+                                    Design và Implementaion:</p>
+                                <p class="contents px-4"><span class="font-weight-bold">Design: </span>
+                                    Chụp lại hình ảnh để có cái nhìn tổng quan về file thiết kế, có nút Download để
+                                    Download file thiết kế nếu muốn.
+                                </p>
+                                <p class="contents px-4"><span class="font-weight-bold">Implementation: </span>
+                                    Nội dung phần thực hiện trên html.
+                                </p>
+
                             </div>
                         </div>
 
+                        <div id="exercise1" class="p-3 container tab-pane fade">
+
+                            <div class="contan">
+                                <ul class=" nav nav-tabs" role="tablist">
+                                    <li class="nav-item items">
+                                        <a class="nav-link active" data-toggle="tab"
+                                           href="#designex1">Design</a>
+                                    </li>
+
+                                    <li class="nav-item items">
+                                        <a class="nav-link" data-toggle="tab"
+                                           href="#implementationex1">Implementation</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div id="designex1"
+                                         class="p-3 container tab-pane fade active show">
+                                        <div class="bound">
+                                            design-Ex1
+                                        </div>
+                                    </div>
+                                    <div id="implementationex1"
+                                         class="p-3 container tab-pane fade active show">
+                                        <div class="bound">
+                                            implementationex-Ex1
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+                        <div id="exercise2" class="p-3 container tab-pane fade">
+
+                            <div class="contan">
+                                <ul class=" nav nav-tabs" role="tablist">
+                                    <li class="nav-item items">
+                                        <a class="nav-link active" data-toggle="tab"
+                                           href="#designex2">Design</a>
+                                    </li>
+
+                                    <li class="nav-item items">
+                                        <a class="nav-link" data-toggle="tab"
+                                           href="#implementationex2">Implementation</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div id="designex2"
+                                         class="p-3 container tab-pane fade active show">
+                                        <div class="bound">
+                                            design-Ex2
+                                        </div>
+                                    </div>
+                                    <div id="implementationex2"
+                                         class="p-3 container tab-pane fade active show">
+                                        <div class="bound">
+                                            implementationex-Ex2
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-</div>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="js/min/plugins.min.js"></script>
-<script src="js/min/main.min.js"></script>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/min/plugins.min.js"></script>
+    <script src="js/min/main.min.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,55 @@
+#lab2 {
+    width: 910px;
+    height: 800px;
+    /*border: 1px solid black;*/
+}
+
+#lab2 button {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #ffffff;
+    background-color: #FF6140;
+    border-radius: 2px;
+    border: none;
+}
+
+#lab2 h4 label {
+    color: black;
+}
+
+#lab2 a {
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 5px;
+    color: #FF6140;
+    font-size: 18px;
+
+}
+
+#lab2 p {
+    color: #cacaca;
+    font-size: 13px;
+
+}
+
+#lab2 .text {
+    padding: 10px 0 0 7px;
+}
+
+/*#lab2 .image {*/
+/*    margin-left: 0;*/
+/*}*/
+
+#lab2 .image > div {
+    width: 281px;
+    height: 210px;
+    margin: 0 0px 20px 0;
+    padding: 0;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.11);
+    opacity: 0.8;
+
+}
+
+#lab2 .image > div:hover {
+    opacity: 1;
+}
