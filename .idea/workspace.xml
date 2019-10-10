@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17921926-dee0-47f5-8b41-f9c79633ae32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/lab2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/lab2/CSS.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/lab2/HTML.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/lab2/backend.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/lab2/frontend.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/lab2/javascript.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/lab2/jquery.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/lab2/simblimetext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/lab2/web.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/lab2/webFun.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/lab2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/lab2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,7 +60,8 @@
       <workItem from="1570423161190" duration="7498000" />
       <workItem from="1570503342031" duration="30000" />
       <workItem from="1570598402992" duration="1937000" />
-      <workItem from="1570632885392" duration="5655000" />
+      <workItem from="1570632885392" duration="6193000" />
+      <workItem from="1570671374640" duration="3535000" />
     </task>
     <servers />
   </component>

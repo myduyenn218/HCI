@@ -1,4 +1,5 @@
 #lab2 {
+    padding:  0;
     width: 910px;
     height: 800px;
     /*border: 1px solid black;*/
@@ -40,7 +41,7 @@
 /*    margin-left: 0;*/
 /*}*/
 
-#lab2 .image > div {
+#lab2 .image > div>div {
     width: 281px;
     height: 210px;
     margin: 0 0px 20px 0;
@@ -50,6 +51,10 @@
 
 }
 
-#lab2 .image > div:hover {
+#lab2 .image > div>div:hover {
     opacity: 1;
+}
+image {
+    width: 100%;
+    height: auto;
 }
