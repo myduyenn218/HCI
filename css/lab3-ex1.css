@@ -1,0 +1,139 @@
+
+#container {
+    margin: auto;
+    width: 100%;
+
+    height: auto;
+}
+
+#header {
+    margin: 0;
+    height: 70px;
+    width: 100%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#header .header-content {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#header .header-content .menu {
+    display: flex;
+    /*justify-content: space-between;*/
+}
+
+#header .header-content .menu .menu-item {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+}
+
+#header .header-content .menu .menu-item a {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.sign-in {
+    display: flex;
+
+    justify-content: flex-end;
+}
+
+.logo {
+    width: 53px;
+    float: left;
+    margin: 0;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+#section1 {
+    height: 100px;
+    margin: 0;
+    margin-top: 3px;
+    background: #2DAAA6;
+    color: white;
+}
+
+#section1 .title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    color: white;
+}
+
+.btn-start {
+    background: #FFC740;
+    border-radius: 3px;
+    border: none;
+    width: 120px;
+}
+
+#section2-ex1 {
+    margin: 0;
+}
+#section2-ex1 p {
+    font-size: 13px;
+}
+#section2-ex1 .sec2-content {
+    margin-left: 20px;
+}
+
+#section2-ex1 > div {
+    width: 100%;
+}
+
+#section2-ex1 .title-info {
+    font-weight: bold;
+    color: #4B35EF;
+    font-size: 20px;
+
+}
+
+#section2-ex1 .title-info {
+    font-weight: bold;
+    color: #4B35EF;
+    font-size: 20px;
+
+}
+
+#section2-ex1 .title-info > a {
+    margin-right: 20px;
+    margin-left: 10px;
+
+}
+
+#section2-ex1 .overview {
+    margin-left: 10px;
+    width: 80px;
+    height: 3px;
+    background: #4B35EF;
+}
+
+#section2-ex1 .content {
+    margin-top: 30px;
+}
+
+#section2-ex1 .info {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    box-sizing: border-box;
+    margin-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    /*height: 155px;*/
+}
+#section2-ex1  .rec {
+    margin-top: 15%;
+}
+.bolder {
+    font-weight: bolder;
+}
