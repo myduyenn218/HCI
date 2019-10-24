@@ -222,12 +222,12 @@ h1, h2, h3, h4, h5 {
 .main-content,
 .banner-bg {
   float: right;
-  width: 77%;
+  width: 83%;
 }
 @media screen and (max-width: 1290px) {
   .main-content,
   .banner-bg {
-    width: 70%;
+    /*width: 70%;*/
   }
 }
 @media screen and (max-width: 992px) {
@@ -273,7 +273,7 @@ hr {
 -------------------------------------------------------- */
 .sidebar-menu {
   float: left;
-  width: 23%;
+  width: 17%;
   height: 100%;
   position: fixed;
   background-color: #5f6d7e;
@@ -282,8 +282,8 @@ hr {
 }
 @media screen and (max-width: 1290px) {
   .sidebar-menu {
-    overflow-y: scroll;
-    width: 30%;
+    /*overflow-y: scroll;*/
+    /*width: 30%;*/
   }
 }
 
@@ -315,7 +315,7 @@ h3.profile-title {
 }
 
 .main-navigation {
-  margin: 30px 0;
+  /*margin: 30px 0;*/
 }
 .main-navigation li {
   display: block;
